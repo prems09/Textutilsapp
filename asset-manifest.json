@@ -1,15 +1,14 @@
 {
-  "main.css": "/Textutilsapp/static/css/main.1f3c75ba.chunk.css",
-  "main.js": "/Textutilsapp/static/js/main.ce25d67a.chunk.js",
-  "main.js.map": "/Textutilsapp/static/js/main.ce25d67a.chunk.js.map",
-  "static/js/1.3c11774c.chunk.js": "/Textutilsapp/static/js/1.3c11774c.chunk.js",
-  "static/js/1.3c11774c.chunk.js.map": "/Textutilsapp/static/js/1.3c11774c.chunk.js.map",
-  "static/js/2.2b8e7308.chunk.js": "/Textutilsapp/static/js/2.2b8e7308.chunk.js",
-  "static/js/2.2b8e7308.chunk.js.map": "/Textutilsapp/static/js/2.2b8e7308.chunk.js.map",
-  "runtime~main.js": "/Textutilsapp/static/js/runtime~main.fdb73013.js",
-  "runtime~main.js.map": "/Textutilsapp/static/js/runtime~main.fdb73013.js.map",
-  "static/css/main.1f3c75ba.chunk.css.map": "/Textutilsapp/static/css/main.1f3c75ba.chunk.css.map",
-  "index.html": "/Textutilsapp/index.html",
-  "precache-manifest.896ab14dc839a0b576d27e026ba13d67.js": "/Textutilsapp/precache-manifest.896ab14dc839a0b576d27e026ba13d67.js",
-  "service-worker.js": "/Textutilsapp/service-worker.js"
+  "files": {
+    "main.css": "/Textutilsapp/static/css/main.31d6cfe0.css",
+    "main.js": "/Textutilsapp/static/js/main.2e22f0e2.js",
+    "static/js/787.70d9ad1f.chunk.js": "/Textutilsapp/static/js/787.70d9ad1f.chunk.js",
+    "index.html": "/Textutilsapp/index.html",
+    "main.2e22f0e2.js.map": "/Textutilsapp/static/js/main.2e22f0e2.js.map",
+    "787.70d9ad1f.chunk.js.map": "/Textutilsapp/static/js/787.70d9ad1f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.31d6cfe0.css",
+    "static/js/main.2e22f0e2.js"
+  ]
 }
