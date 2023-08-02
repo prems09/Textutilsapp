@@ -1,5 +1,4 @@
 import './App.css';
-// import About from './Components/About';
 import Alert from './Components/Alert';
 import Navbar from './Components/Navbar';
 import TextForm from './Components/TextForm';
@@ -38,7 +37,7 @@ function App() {
 
     <div className="container my-3">
     <TextForm showAlert={showAlert} heading="Try it- Converted to uppercase & lowercase, word and character counter and Remove extra spaces" mode={mode}/>
-    {/* <About/> */}
+    
           
     
     </div>

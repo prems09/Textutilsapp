@@ -20,22 +20,17 @@ export default function TextForm(props) {
 
     }
     const handleCopy = ()=>{
-        var text =document.getElementById("mybox");
-        text.select();
-        navigator.clipboard.writeText(text.value);
-        document.getSelection().removeAllRanges();
+        navigator.clipboard.writeText(text);
         props.showAlert("Text copied to clipboard !","success")
 
     }
     const handleExtraSpaces = ()=>{
-        // console.log("remove extra space")
-        let newText = text.split(/[ ]+/);
+         let newText = text.split(/[ ]+/);
         setText(newText.join(" "))
         props.showAlert("Removed extra spaces!","success")
 
     }
     const handleOnChange = (event)=>{
-        console.log("handle on change") 
         setText(event.target.value)
     }
   return (
@@ -61,7 +56,7 @@ export default function TextForm(props) {
   <button disabled={text.length===0} className="btn btn-primary mx-2 my-1" onClick={handleExtraSpaces}>Remove Extra Spaces</button>
   <div className="container my-3"style={{color:props.mode==='dark'?'white':'black'}}>
       <h1>Your text Summary</h1>
-      <p>{text.split(" ").filter((element)=>{return element.length!==0}).length} words and {text.length} Characters</p>
+      <p>{text.split(/\s+/).filter((element)=>{return element.length!==0}).length} words and {text.length} Characters</p>
       <p>{0.008 * text.split(" ").filter((element)=>{return element.length!==0}).length} Minutes to read</p>
       <h2>Preview</h2>
       <p>{text.length>0?text:"Nothing to preview"}</p>
